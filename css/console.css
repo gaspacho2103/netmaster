@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    width: 69%;
+    height: 829px;
+    background-color: black;
+    margin: 12.5px 5px 0px 15px;
+    padding: 0px;
+
+    border: 2px solid #cfcfcf;
+
+    border-radius: 12px;
+}
+
+.console {
+    margin: 0px;
+    padding: 0px;
+}
+
+.consoletext {
+    color: rgb(255, 255, 255);
+    font-family: Monospace;
+    margin: 10px 0px 0px 10px;
+
+    font-size: 15px;
+}
+
+.textinput {
+    resize: none;
+    margin: 0px 0px 10px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Monospace;
+    width: calc(100% - 20px);
+    overflow: hidden;
+
+    font-size: 15px;
+}
